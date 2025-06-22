@@ -1,0 +1,22 @@
+/* Footer Section */
+footer{
+    background-color:black;
+    color:white;
+    max-height:max-content
+}
+#footer-main-container{
+    display: flex;
+    gap: 9rem;
+    padding:3rem 5rem;
+}
+#contact-info{
+    width: 55rem;
+}
+#social-links{
+    width: 25rem;
+    
+}
+.contact-info-container{
+    margin:1rem 0;
+}
+/* Footer Section */

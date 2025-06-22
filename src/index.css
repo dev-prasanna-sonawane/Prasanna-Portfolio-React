@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+:root {
+    --primaryButtonBackgroundColor: #7843E9;
+    --primaryButtonColor: white;
+    --border: 0.3vh solid black;
+    --shadow: #221f1f8f 0.4vh 0.4vh 0.8vh 0.6vh;
+}

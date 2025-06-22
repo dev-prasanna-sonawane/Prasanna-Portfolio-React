@@ -1,0 +1,32 @@
+/* Header Style */
+header {
+    /* position: fixed; */
+    /* z-index: 100; */
+    box-shadow: var(--shadow);
+    background-color: white;
+    width: 100%;
+    /* margin-bottom: 14rem; */
+}
+
+/* NavBar Style */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.nav-links {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    margin: 1em;
+}
+
+.nav-links:hover {
+    color: var(--primaryButtonBackgroundColor)
+}
+
+/* NavBar Style */
+
+/* Header Style */

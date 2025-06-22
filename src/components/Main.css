@@ -1,0 +1,194 @@
+.small-btn {
+    background-color: var(--primaryButtonBackgroundColor);
+    color: var(--primaryButtonColor);
+    padding: 0.7rem;
+    font-weight: bold;
+    width: 8rem;
+}
+
+.btn:hover {
+    scale: 1.1;
+    background-color: var(--primaryButtonBackgroundColor);
+    color: var(--primaryButtonColor);
+}
+
+.normal-btn {
+    background-color: var(--primaryButtonBackgroundColor);
+    color: var(--primaryButtonColor);
+    padding: 0.7rem;
+    font-weight: bold;
+    width: 12rem;
+}
+
+.large-btn {
+    background-color: var(--primaryButtonBackgroundColor);
+    color: var(--primaryButtonColor);
+    padding: 0.7rem;
+    font-weight: bold;
+    width: 15rem;
+}
+
+/* Hero Section */
+#hero {
+    /* height: 120vh; */
+    height: 100vh;
+    background-image: url(src/assets/background-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hero Section */
+
+
+
+/* About Me Section */
+#about-me-section {
+    /* background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)) center center / cover, url(src/assets/background-image.jpg);
+        background-position: center center; */
+    max-width: 83vw;
+    align-self: center;
+}
+
+/* About Me Section */
+
+/* About Me Container Section */
+#about-me-container {
+    display: flex;
+    gap: 5rem;
+    margin: 2rem;
+}
+
+/* About Me Container Section */
+/* Get to Know Me Section  */
+#get-to-know-me {
+    text-align: start;
+    width: 50vw;
+}
+
+/* Get to Know Me Section  */
+
+/* Skills Section */
+#my-skills {
+    text-align: start;
+    width: 35vw;
+}
+
+#skills-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills {
+    /* background-color: rgb(225, 225, 225); */
+    background-color: rgba(153, 153, 153, 0.2);
+    display: inline-block;
+    width: fit-content;
+    padding: 0.9em;
+    margin: 0.5rem;
+    border-radius: 0.4rem;
+}
+
+/* Skills Section */
+
+
+
+/* Projects Styling */
+#projects-section {
+    max-width: 83vw;
+    align-self: center;
+}
+
+.project {
+    /* display: flex;
+    flex-wrap:wrap;
+    gap: 5rem;
+    margin: 2rem ;
+    padding: 2rem; */
+    display: flex;
+        flex-wrap: wrap;
+        gap: 3rem;
+        margin: 2rem 0;
+        padding: 2rem;
+        background: rgba(245, 245, 245, 0.7);
+        border-radius: 1rem;
+        box-shadow: var(--shadow);
+        align-items: center;
+}
+
+.project-img {
+    /* max-width: 60vw;
+    max-height: 60vh;
+    align-self: flex-start; */
+    max-width: 100%;
+        max-height: 350px;
+        border-radius: 1rem;
+        object-fit: cover;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+        margin-bottom: 1rem;
+}
+
+/* .mobile {
+    height: 75vh;
+    width: 20vw;
+    align-self: flex-start;
+}
+
+.laptop {
+    height: 50vh;
+    width: 50vw;
+    align-self: center;
+} */
+
+#project-info-container {
+    /* align-self: flex-start;
+        max-width: 50vw;
+        display: flex;
+        flex-direction: column;
+        text-align: start; */
+    flex: 1 1 300px;
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        gap: 1rem;
+}
+
+/* Projects Styling */
+
+/* Contact Section */
+#contact-section {
+    /* background-image: url(src/assets/background-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    padding: 3rem;
+    /* background: url(src/assets/background-image.jpg);
+    background-position: center center,linear-gradient(to right, rgba(245, 245, 245, 0.8),rgba(245, 245, 245, 0.8))center center /cover, */
+    background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)) center center / cover, url(src/assets/background-image.jpg);
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#contact-form {
+    text-align: start;
+    /* margin: 3rem 15rem; */
+    width: 60vw;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: var(--shadow);
+}
+
+.input-field {
+    background-color: rgba(245, 245, 245, 0.8);
+}
+
+/* Contact Section */

@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "./components/Header";
-import SideLinks from "./components/SideLinks";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
 import "./Portfolio.css";

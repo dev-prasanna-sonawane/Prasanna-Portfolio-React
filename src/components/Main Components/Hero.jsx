@@ -1,7 +1,7 @@
 import React from "react";
 import CommonTitlePara from "./CommonTitlePara";
 import { FaMapPin } from "react-icons/fa";
-import Resume from '/src/assets/Resume.pdf';
+import Resume from "src/assets/Prasanna Sonawane Resume.pdf"
 
 function Hero() {
   

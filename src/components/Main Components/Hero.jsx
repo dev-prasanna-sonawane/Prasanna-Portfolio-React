@@ -1,7 +1,6 @@
 import React from "react";
 import CommonTitlePara from "./CommonTitlePara";
 import { FaMapPin } from "react-icons/fa";
-import Resume from "src/assets/Prasanna Sonawane Resume.pdf"
 
 function Hero() {
   
@@ -17,7 +16,7 @@ function Hero() {
           {<FaMapPin size={15} title="Pune, India"></FaMapPin>}"Pune,India"
         </p>
         <a
-          href={Resume}
+          href="/Prasanna_Sonawane_Resume.pdf"
           download="Prasanna-Sonawane-Resume"
           className="btn large-btn"
           t
